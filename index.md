@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+# audacity-loopback
+A quick description to "How to register Loopback Audio on Audacity"
 
-You can use the [editor on GitHub](https://github.com/Piket564/audacity-loopback/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Questa breve guida si basa su sistema operativo Windows 10.
+Scaricare il programma Audacity dal sito ufficiale, [link al download](https://www.audacityteam.org/download/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Download Audacity](./images/download_audacity.PNG "Download Audacity")
 
-### Markdown
+Installare il programma (immagini 1 to 8).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Install Audacity](./images/install_1.PNG "Install Audacity")
+![Install Audacity](./images/install_2.PNG "Install Audacity")
+![Install Audacity](./images/install_3.PNG "Install Audacity")
+![Install Audacity](./images/install_4.PNG "Install Audacity")
+![Install Audacity](./images/install_5.PNG "Install Audacity")
 
-```markdown
-Syntax highlighted code block
+*Privacy? Quale privacy? =D*
 
-# Header 1
-## Header 2
-### Header 3
+![Install Audacity](./images/install_6.PNG "Install Audacity")
+![Install Audacity](./images/install_7.PNG "Install Audacity")
 
-- Bulleted
-- List
+All'avvio selezionare "Non mostrare più all'avvio"
 
-1. Numbered
-2. List
+![Install Audacity](./images/install_8.PNG "Install Audacity")
 
-**Bold** and _Italic_ and `Code` text
+Selezionare dal menù a tendina *Windows WASAPI* [RTFM](https://docs.microsoft.com/en-us/windows/win32/coreaudio/wasapi)
 
-[Link](url) and ![Image](src)
-```
+![MME_to_WASAPI](./images/MME_to_WASAPI.png "MME_to_WASAPI")
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Selezionare dal menù a tendina *Altoparlanti (Realtek(R) Audio) (loopback)* 
+* NB, potrebbe non chiamarsì così. Selezionate comunque la voce che contiene *loopback*
 
-### Jekyll Themes
+![Loopback](./images/realteck_loopback.png "Loopback")
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Piket564/audacity-loopback/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Dopodiché creare un progetto di registrazione:
 
-### Support or Contact
+*File > Salva Progetto > Salva Progetto*
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Salva](./images/file_save_project.png "Salva")
+
+Disabilitare il Warning.
+
+![Warning 1](./images/warning_1.png "Warning 1")
+
+Salvare inserendo nome e lasciando estensione progetto invariata.
+
+![Warning 1](./images/save_with_name.png "Save with name")
+
+Ora, senza giudicare, io uso una canzone *(la canzone)*, voi registrate le lezioni.
+
+![Warning 1](./images/canzone_1.png "Barbie Girl")
+
+Premendo il bottone rosso e facendo partire la canzone le casse verranno registrate.
+
+* NB, potrete parlare, cantare, videochiamare dal cellulare, nessun microfono verrà registrato.
+Non guardate video dal pc o rimuovete WhatsApp web in quanto _TUTTI_ i media verranno registrati.
+
+![img.png](./images/register_1.png "Registrazione")
+
+Una volta finito, potete salvare con *Ctrl + S*.
+
+Esportate in .mp3
+
+![Esporting](./images/esporta_mp3.png "Esporting")
+
+Audacity crea alcuni file progetto di X GB, potete eliminarli una volta finito di esportare il file in .mp3.
+
+![Files](./images/file_1.png "Files")
+
+# The End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Glossario
++ *Loopback*  = "Interfaccia di loopback, *torna indietro*"
++ *RTFM*  = "Read the fucking manual"
